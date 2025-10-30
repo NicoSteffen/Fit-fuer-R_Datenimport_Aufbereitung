@@ -100,7 +100,6 @@ table(df$Geschlecht)
 df <- df[df$Geschlecht != "Divers", ]
 
 table(df$Geschlecht)
-
 df$Geschlecht <- droplevels(df$Geschlecht)
 
 #excludion of age > 75
@@ -108,6 +107,13 @@ df <- df[df$Alter < 76, ]
 
 range(df$Alter)
 
+
+library(dplyr)
+df_dplyr <- filter(df, 
+                   Alter < 76, 
+                   Geschlecht != "Divers",
+                   !is.na(BMI)
+)
 
 
 
@@ -133,20 +139,22 @@ colSums(is.na(df[,grep("STR", colnames(df))]))
 df$STR_sum = rowSums(df[,grep("STR_0", colnames(df))])
 # zeigen dass man nicht öfter drauf drücken darf
 
-# 1. Berechne den Mittelwert der Spalte, ignoriere dabei die NAs
+
 #mean_bmi <- mean(df$BMI, na.rm = TRUE)
-
-# 2. Finde alle NAs in der BMI-Spalte und ersetze sie durch den Mittelwert
 #df$BMI[is.na(df$BMI)] <- mean_bmi
-
-# Überprüfung (sollte jetzt 0 NAs zeigen)
 #sum(is.na(df$BMI))
 
 
 # jetzt mal den bereinigten Datensatz speichern
 
-write.csv2(df, "df_bereinigt", row.names = FALSE)
+write.csv2(df, "df_bereinigt.csv2", row.names = FALSE)
+saveRDS(df, "df_bereinigt.rds")
 
+df_neu_csv <- read.csv2("df_bereinigt.csv2")
+df_neu_rds <- readRDS("df_bereinigt.rds")
+
+str(df_neu_csv)
+str(df_neu_rds)
 
 # Deskriptivstatistiken
 
