@@ -1,0 +1,135 @@
+"Patienten_ID";"Alter";"Geschlecht";"Bildungsgrad";"Behandlungsgruppe";"Diagnosejahr";"BMI";"Raucher";"LQ_01";"LQ_02";"LQ_03";"LQ_04";"LQ_05";"STR_01";"STR_02";"STR_03";"LQ_total";"STR_sum"
+"PAT_1002";68;"Männlich";"Hoch";"Kontrolle";2017;24,1;"Nie";2;4;3;4;4;4;1;3;3,4;8
+"PAT_1003";31;"Weiblich";"Mittel";"Intervention B";2017;25,9;"Nie";4;5;1;3;5;4;0;3;3,6;7
+"PAT_1005";59;"Männlich";"Hoch";"Kontrolle";2021;39,2;"Ehemalig";2;1;1;2;5;1;2;4;2,2;7
+"PAT_1006";67;"Männlich";"Hoch";"Intervention B";2015;27,7;"Nie";4;1;3;4;5;4;1;3;3,4;8
+"PAT_1007";60;"Weiblich";"Mittel";"Intervention B";2017;NA;"Ehemalig";4;2;4;5;5;2;3;1;4;6
+"PAT_1008";31;"Männlich";"Mittel";"Intervention B";2021;31,1;"Ja";5;4;1;2;3;3;1;3;3;7
+"PAT_1009";42;"Männlich";"Mittel";"Intervention A";2016;35,2;"Nie";5;3;1;2;3;4;0;0;2,8;4
+"PAT_1010";74;"Männlich";"Mittel";"Kontrolle";2023;21,5;"Nie";1;3;2;3;4;2;4;1;2,6;7
+"PAT_1011";26;"Weiblich";"Niedrig";"Intervention A";2019;21,1;"Ja";5;1;5;3;3;0;2;0;3,4;2
+"PAT_1012";43;"Weiblich";"Niedrig";"Intervention B";2015;28,9;"Ja";3;2;2;5;5;2;2;0;3,4;4
+"PAT_1013";24;"Weiblich";"Hoch";"Kontrolle";2024;25;"Ehemalig";2;5;5;1;1;1;1;4;2,8;6
+"PAT_1014";59;"Weiblich";"Mittel";"Intervention A";2023;42,2;"Nie";1;3;3;5;3;3;4;4;3;11
+"PAT_1015";26;"Weiblich";"Mittel";"Kontrolle";2023;19,4;"Ehemalig";1;2;2;2;1;3;4;2;1,6;9
+"PAT_1016";53;"Weiblich";"Niedrig";"Intervention A";2021;18,3;"Nie";3;3;4;3;1;4;3;4;2,8;11
+"PAT_1017";60;"Weiblich";"Mittel";"Intervention A";2016;31,7;"Nie";2;3;5;3;1;0;0;4;2,8;4
+"PAT_1018";32;"Männlich";"Mittel";"Intervention B";2022;32,5;"Nie";2;2;1;4;4;3;2;2;2,6;7
+"PAT_1019";49;"Weiblich";"Mittel";"Intervention A";2021;31,5;"Nie";3;3;5;5;3;3;1;4;3,8;8
+"PAT_1020";24;"Weiblich";"Hoch";"Intervention A";2020;29,1;"Nie";5;4;1;1;4;0;2;0;3;2
+"PAT_1021";26;"Männlich";"Mittel";"Intervention A";2021;30,4;"Ja";5;3;1;5;2;3;0;1;3,2;4
+"PAT_1022";58;"Männlich";"Mittel";"Intervention A";2024;20,2;"Nie";5;3;2;2;2;2;2;3;2,8;7
+"PAT_1023";40;"Weiblich";"Hoch";"Intervention A";2016;31,8;"Nie";4;2;2;2;4;2;4;2;2,8;8
+"PAT_1024";44;"Weiblich";"Mittel";"Intervention B";2016;20,9;"Nie";1;5;1;1;2;4;1;4;2;9
+"PAT_1026";70;"Männlich";"Mittel";"Kontrolle";2021;13,9;"Ehemalig";4;4;1;5;3;0;0;4;3,4;4
+"PAT_1027";24;"Weiblich";"Niedrig";"Intervention B";2024;21,2;"Nie";5;4;2;3;2;3;3;2;3,2;8
+"PAT_1028";70;"Weiblich";"Mittel";"Intervention B";2023;NA;"Nie";2;3;3;5;4;0;2;3;3,4;5
+"PAT_1029";44;"Männlich";"Hoch";"Intervention B";2021;31,4;"Nie";4;1;1;3;3;2;1;0;2,4;3
+"PAT_1030";55;"Weiblich";"Hoch";"Intervention B";2020;27;"Ja";1;5;1;1;2;3;2;1;2;6
+"PAT_1031";51;"Weiblich";"Mittel";"Intervention A";2018;21;"Nie";5;5;2;4;1;1;4;3;3,4;8
+"PAT_1033";30;"Weiblich";"Mittel";"Kontrolle";2017;17,7;"Nie";5;5;5;4;5;1;4;3;4,8;8
+"PAT_1034";42;"Weiblich";"Mittel";"Intervention B";2024;27,5;"Nie";2;3;1;4;2;4;3;3;2,4;10
+"PAT_1035";55;"Männlich";"Hoch";"Intervention A";2016;24,3;"Ehemalig";5;4;5;5;2;2;2;1;4,2;5
+"PAT_1036";38;"Männlich";"Mittel";"Intervention A";2017;20,8;"Ehemalig";4;1;2;1;1;0;3;2;1,8;5
+"PAT_1037";58;"Weiblich";"Niedrig";"Intervention B";2015;28,7;"Nie";1;5;1;4;3;3;3;3;2,8;9
+"PAT_1038";64;"Männlich";"Mittel";"Kontrolle";2015;22,3;"Ehemalig";2;2;4;2;4;4;4;1;2,8;9
+"PAT_1040";33;"Weiblich";"Niedrig";"Intervention B";2018;30,7;"Nie";2;5;3;4;2;3;1;2;3,2;6
+"PAT_1041";23;"Weiblich";"Mittel";"Kontrolle";2017;31;"Nie";5;3;2;3;5;1;3;4;3,6;8
+"PAT_1042";56;"Männlich";"Mittel";"Kontrolle";2016;30;"Nie";5;1;4;3;2;0;0;1;3;1
+"PAT_1043";48;"Männlich";"Hoch";"Intervention B";2021;36,5;"Nie";3;2;3;1;3;2;1;3;2,4;6
+"PAT_1044";67;"Männlich";"Mittel";"Intervention B";2016;21,7;"Ehemalig";2;2;3;2;5;2;1;0;2,8;3
+"PAT_1045";51;"Männlich";"Niedrig";"Intervention A";2016;37,5;"Nie";2;2;2;2;3;4;2;3;2,2;9
+"PAT_1046";21;"Weiblich";"Niedrig";"Intervention A";2021;NA;"Nie";3;5;1;4;3;2;3;4;3,2;9
+"PAT_1047";30;"Weiblich";"Mittel";"Intervention B";2024;23,4;"Ja";3;5;4;2;2;4;1;3;3,2;8
+"PAT_1048";42;"Männlich";"Mittel";"Intervention A";2018;32,2;"Nie";3;4;5;3;3;1;2;2;3,6;5
+"PAT_1049";69;"Weiblich";"Hoch";"Intervention B";2018;28,7;"Nie";4;3;5;4;3;0;1;0;3,8;1
+"PAT_1050";39;"Weiblich";"Mittel";"Intervention B";2022;32,2;"Ehemalig";1;3;5;3;1;1;4;1;2,6;6
+"PAT_1051";49;"Weiblich";"Niedrig";"Intervention A";2023;26,2;"Ehemalig";5;1;5;1;1;4;4;4;2,6;12
+"PAT_1052";42;"Männlich";"Mittel";"Intervention B";2017;33;"Nie";2;3;2;4;5;3;4;4;3,2;11
+"PAT_1053";52;"Weiblich";"Mittel";"Intervention B";2023;28,6;"Nie";1;3;2;4;3;1;3;4;2,6;8
+"PAT_1054";57;"Weiblich";"Hoch";"Kontrolle";2017;29,3;"Ja";1;1;5;5;2;3;1;4;2,8;8
+"PAT_1055";47;"Männlich";"Hoch";"Intervention B";2020;28,2;"Nie";1;4;3;1;4;2;2;3;2,6;7
+"PAT_1056";29;"Weiblich";"Mittel";"Kontrolle";2019;35,8;"Ehemalig";5;4;1;3;5;3;3;2;3,6;8
+"PAT_1057";48;"Männlich";"Mittel";"Intervention A";2016;19,2;"Ja";1;3;2;2;1;2;1;3;1,8;6
+"PAT_1058";47;"Männlich";"Mittel";"Kontrolle";2020;18,3;"Nie";2;3;2;2;5;0;1;2;2,8;3
+"PAT_1060";31;"Männlich";"Mittel";"Intervention B";2019;38,5;"Nie";2;1;5;4;5;4;3;3;3,4;10
+"PAT_1062";40;"Männlich";"Hoch";"Intervention A";2017;25,2;"Nie";2;4;1;5;1;1;1;3;2,6;5
+"PAT_1063";54;"Weiblich";"Hoch";"Kontrolle";2017;17,6;"Nie";2;3;2;5;5;4;2;3;3,4;9
+"PAT_1064";25;"Weiblich";"Niedrig";"Intervention A";2020;34,4;"Nie";5;5;2;1;4;0;0;2;3,4;2
+"PAT_1065";68;"Männlich";"Mittel";"Intervention B";2023;30,9;"Nie";4;1;2;1;2;3;2;1;2;6
+"PAT_1066";67;"Weiblich";"Mittel";"Intervention B";2017;28,8;"Nie";3;5;3;5;3;0;2;1;3,8;3
+"PAT_1067";63;"Weiblich";"Mittel";"Intervention B";2016;32,7;"Nie";5;1;3;3;3;2;4;2;3;8
+"PAT_1068";34;"Männlich";"Niedrig";"Intervention A";2019;23;"Nie";3;1;5;1;4;1;0;2;2,8;3
+"PAT_1070";63;"Weiblich";"Hoch";"Intervention A";2021;22;"Ehemalig";1;5;3;3;4;1;0;0;3,2;1
+"PAT_1071";71;"Männlich";"Mittel";"Intervention B";2016;34,8;"Nie";4;5;2;3;1;0;4;0;3;4
+"PAT_1072";52;"Weiblich";"Mittel";"Intervention A";2022;NA;"Nie";2;3;5;4;3;2;3;3;3,4;8
+"PAT_1073";41;"Weiblich";"Hoch";"Intervention B";2021;27,9;"Ja";1;5;NA;1;1;4;3;2;2;9
+"PAT_1074";24;"Weiblich";"Mittel";"Intervention B";2021;NA;"Nie";5;4;3;5;3;4;0;1;4;5
+"PAT_1075";40;"Weiblich";"Niedrig";"Kontrolle";2022;22,1;"Nie";3;4;2;3;2;2;4;3;2,8;9
+"PAT_1076";43;"Weiblich";"Mittel";"Intervention A";2019;25,6;"Ehemalig";4;4;4;5;1;4;0;4;3,6;8
+"PAT_1077";49;"Weiblich";"Mittel";"Intervention A";2016;NA;"Ja";4;3;1;4;4;0;2;1;3,2;3
+"PAT_1078";24;"Männlich";"Mittel";"Intervention A";2017;21,9;"Nie";1;4;1;1;3;0;2;1;2;3
+"PAT_1079";44;"Weiblich";"Mittel";"Intervention A";2023;17,8;"Nie";4;5;3;5;2;0;3;2;3,8;5
+"PAT_1080";59;"Männlich";"Hoch";"Intervention A";2017;38,7;"Ehemalig";4;4;2;4;3;0;3;1;3,4;4
+"PAT_1081";22;"Männlich";"Hoch";"Kontrolle";2017;18,7;"Nie";3;2;1;1;4;4;2;2;2,2;8
+"PAT_1082";33;"Männlich";"Niedrig";"Kontrolle";2019;26,9;"Nie";1;4;2;4;1;4;2;3;2,4;9
+"PAT_1083";41;"Weiblich";"Mittel";"Intervention B";2021;27,2;"Ehemalig";5;3;3;1;5;4;1;3;3,4;8
+"PAT_1084";49;"Weiblich";"Niedrig";"Kontrolle";2022;21,5;"Nie";4;1;2;1;2;3;2;0;2;5
+"PAT_1085";38;"Männlich";"Mittel";"Intervention B";2024;NA;"Nie";3;3;4;4;5;3;4;3;3,8;10
+"PAT_1086";72;"Männlich";"Niedrig";"Intervention B";2018;20,9;"Ehemalig";4;5;4;3;5;3;0;4;4,2;7
+"PAT_1087";53;"Männlich";"Hoch";"Intervention A";2017;27,7;"Ja";4;5;2;1;1;4;4;3;2,6;11
+"PAT_1088";56;"Weiblich";"Mittel";"Intervention B";2021;17,9;"Ehemalig";4;2;NA;2;3;0;2;1;2,75;3
+"PAT_1089";71;"Männlich";"Niedrig";"Intervention A";2022;24,3;"Nie";3;3;2;5;5;1;1;2;3,6;4
+"PAT_1090";26;"Männlich";"Mittel";"Kontrolle";2015;30,2;"Nie";3;3;3;1;4;2;4;3;2,8;9
+"PAT_1091";65;"Männlich";"Hoch";"Kontrolle";2021;13,3;"Ehemalig";3;1;4;4;2;2;2;3;2,8;7
+"PAT_1092";73;"Weiblich";"Mittel";"Intervention A";2023;26,8;"Ehemalig";4;2;5;2;3;4;4;3;3,2;11
+"PAT_1093";56;"Weiblich";"Niedrig";"Kontrolle";2017;NA;"Nie";3;4;3;2;3;3;0;1;3;4
+"PAT_1095";18;"Weiblich";"Mittel";"Intervention A";2020;32,2;"Nie";2;4;NA;3;5;1;3;1;3,5;5
+"PAT_1096";57;"Männlich";"Niedrig";"Intervention A";2018;21,9;"Nie";4;2;3;2;3;3;2;1;2,8;6
+"PAT_1097";47;"Weiblich";"Mittel";"Intervention B";2023;27;"Ehemalig";4;4;4;5;5;0;1;2;4,4;3
+"PAT_1098";33;"Männlich";"Niedrig";"Kontrolle";2019;23,4;"Nie";2;4;1;1;5;1;3;0;2,6;4
+"PAT_1099";71;"Männlich";"Mittel";"Kontrolle";2023;26,5;"Nie";4;2;3;1;2;3;0;4;2,4;7
+"PAT_1100";65;"Weiblich";"Hoch";"Intervention A";2023;33,7;"Ja";5;1;2;2;4;0;3;4;2,8;7
+"PAT_1101";37;"Weiblich";"Niedrig";"Intervention B";2019;26,3;"Nie";4;1;1;3;2;0;2;0;2,2;2
+"PAT_1103";53;"Weiblich";"Niedrig";"Kontrolle";2020;29,4;"Nie";5;1;4;2;4;0;3;0;3,2;3
+"PAT_1104";69;"Weiblich";"Niedrig";"Intervention B";2020;34,3;"Ja";3;5;5;4;4;0;4;0;4,2;4
+"PAT_1106";66;"Männlich";"Mittel";"Intervention A";2018;24,8;"Nie";1;1;2;1;3;4;2;3;1,6;9
+"PAT_1107";59;"Weiblich";"Mittel";"Kontrolle";2022;27,1;"Ehemalig";1;1;1;3;2;4;2;1;1,6;7
+"PAT_1109";28;"Männlich";"Niedrig";"Intervention B";2021;28,1;"Ja";4;5;3;4;5;2;4;0;4,2;6
+"PAT_1110";72;"Weiblich";"Hoch";"Intervention B";2019;32,5;"Nie";4;5;5;2;3;3;3;2;3,8;8
+"PAT_1111";25;"Weiblich";"Hoch";"Kontrolle";2022;30,2;"Nie";3;1;3;2;3;0;1;2;2,4;3
+"PAT_1112";63;"Männlich";"Hoch";"Intervention B";2015;24,5;"Ehemalig";5;1;3;1;5;4;0;2;3;6
+"PAT_1114";63;"Weiblich";"Hoch";"Kontrolle";2024;26,4;"Nie";5;1;3;1;1;4;4;3;2,2;11
+"PAT_1115";61;"Männlich";"Mittel";"Intervention A";2021;25,2;"Ja";1;1;3;3;1;3;3;2;1,8;8
+"PAT_1116";49;"Weiblich";"Mittel";"Kontrolle";2019;27,3;"Nie";1;3;1;2;5;0;3;0;2,4;3
+"PAT_1117";53;"Männlich";"Niedrig";"Intervention A";2015;28,8;"Nie";4;3;1;3;4;4;3;4;3;11
+"PAT_1118";62;"Weiblich";"Hoch";"Intervention A";2021;28,7;"Nie";3;2;4;1;2;4;0;1;2,4;5
+"PAT_1119";31;"Weiblich";"Mittel";"Kontrolle";2021;21,2;"Ehemalig";4;1;4;1;1;1;0;4;2,2;5
+"PAT_1120";33;"Weiblich";"Hoch";"Intervention B";2017;28,7;"Nie";3;5;5;1;2;4;1;4;3,2;9
+"PAT_1121";50;"Weiblich";"Hoch";"Kontrolle";2017;28,9;"Ehemalig";1;4;4;5;2;2;2;2;3,2;6
+"PAT_1122";57;"Männlich";"Mittel";"Intervention A";2023;27,2;"Nie";2;5;1;1;3;2;0;4;2,4;6
+"PAT_1123";57;"Weiblich";"Niedrig";"Intervention A";2015;31,5;"Ja";3;2;3;1;5;4;3;3;2,8;10
+"PAT_1124";27;"Weiblich";"Hoch";"Kontrolle";2023;28,3;"Nie";3;5;3;4;5;0;3;4;4;7
+"PAT_1125";26;"Weiblich";"Niedrig";"Intervention A";2021;19,4;"Nie";1;1;5;3;4;4;1;2;2,8;7
+"PAT_1126";24;"Männlich";"Hoch";"Kontrolle";2020;NA;"Nie";1;3;1;2;5;0;2;4;2,4;6
+"PAT_1127";24;"Männlich";"Niedrig";"Kontrolle";2015;42,6;"Ja";1;1;3;2;2;4;0;3;1,8;7
+"PAT_1128";75;"Männlich";"Hoch";"Intervention A";2022;33,6;"Ja";1;1;1;4;1;4;2;1;1,6;7
+"PAT_1130";41;"Männlich";"Niedrig";"Intervention A";2024;24,4;"Nie";2;2;4;1;1;3;0;4;2;7
+"PAT_1132";71;"Weiblich";"Mittel";"Intervention B";2019;31,4;"Ja";2;2;2;1;2;2;2;2;1,8;6
+"PAT_1133";40;"Weiblich";"Mittel";"Kontrolle";2017;22,3;"Nie";4;3;5;1;4;0;0;3;3,4;3
+"PAT_1134";43;"Weiblich";"Hoch";"Kontrolle";2015;26;"Nie";1;1;5;5;4;4;3;0;3,2;7
+"PAT_1135";50;"Männlich";"Mittel";"Kontrolle";2020;31,4;"Nie";3;5;4;1;1;1;3;1;2,8;5
+"PAT_1136";74;"Männlich";"Niedrig";"Kontrolle";2018;21,4;"Nie";3;2;NA;2;4;0;0;2;2,75;2
+"PAT_1137";46;"Männlich";"Niedrig";"Intervention B";2022;28,9;"Nie";5;2;4;3;4;3;4;1;3,6;8
+"PAT_1138";27;"Weiblich";"Niedrig";"Intervention A";2023;34,2;"Nie";2;1;2;5;1;0;2;2;2,2;4
+"PAT_1140";71;"Weiblich";"Niedrig";"Kontrolle";2022;30;"Nie";4;1;4;1;2;1;4;1;2,4;6
+"PAT_1141";28;"Männlich";"Mittel";"Intervention B";2021;16,7;"Ehemalig";2;4;4;2;3;4;0;2;3;6
+"PAT_1142";42;"Weiblich";"Mittel";"Intervention B";2018;25,8;"Ja";1;1;5;5;3;0;0;3;3;3
+"PAT_1143";69;"Weiblich";"Hoch";"Kontrolle";2022;22,3;"Nie";2;4;4;3;5;4;3;1;3,6;8
+"PAT_1144";43;"Weiblich";"Niedrig";"Kontrolle";2019;26,7;"Nie";5;2;3;1;1;4;2;3;2,4;9
+"PAT_1145";24;"Weiblich";"Hoch";"Intervention A";2015;24,4;"Nie";2;3;1;2;5;0;3;1;2,6;4
+"PAT_1146";42;"Weiblich";"Hoch";"Intervention B";2015;16,7;"Ehemalig";5;3;4;2;5;3;3;4;3,8;10
+"PAT_1147";49;"Männlich";"Mittel";"Kontrolle";2019;27,7;"Nie";1;5;NA;4;2;3;4;0;3;7
+"PAT_1148";41;"Männlich";"Niedrig";"Kontrolle";2017;19,5;"Ehemalig";3;1;5;4;1;1;2;2;2,8;5
+"PAT_1149";74;"Weiblich";"Mittel";"Intervention B";2018;21,2;"Nie";4;3;3;3;4;4;1;2;3,4;7
+"PAT_1150";40;"Männlich";"Mittel";"Kontrolle";2017;32,2;"Nie";1;1;5;4;5;1;2;3;3,2;6
