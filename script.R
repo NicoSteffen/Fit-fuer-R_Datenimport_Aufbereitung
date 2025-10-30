@@ -11,13 +11,14 @@ setwd("/Users/nicosteffen/Documents/01 Arbeit/01 CFH/06 Lehre/Fit für R/Fit-fu
 
 # Grundfunktionen ect. Pakete lesen 
 
-
 daten_csv <- read.csv("klinische_patientendaten.csv")
 daten_csv2 <- read.csv2("klinische_patientendaten.csv2")
+daten_csv2 <- read.csv2("https://raw.githubusercontent.com/NicoSteffen/Fit-fuer-R_Datenimport_Aufbereitung/main/klinische_patientendaten.csv2")
 
 # install.packages("haven")
-#library(haven)
+library(haven)
 daten_sav <- read_sav("klinische_patientendaten.sav")
+daten_sav <- read_sav("https://raw.githubusercontent.com/NicoSteffen/Fit-fuer-R_Datenimport_Aufbereitung/main/klinische_patientendaten.sav")
 
 # install.packages("openxlsx")
 #library(openxlsx)
