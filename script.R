@@ -1,17 +1,22 @@
-#https://stephangoerigk.github.io/CFH_R_bookdown/über-dieses-skript.html
+# https://stephangoerigk.github.io/CFH_R_bookdown/über-dieses-skript.html
+# https://github.com/NicoSteffen/Fit-fuer-R_Datenimport_Aufbereitung
 
-
-# Datenimport und -export: Laden von Daten aus verschiedenen Formaten (z. B. .csv, .xlsx) in R und das Speichern der Ergebnisse.
 
 #neues Projekt starten 
 getwd()
 setwd("/Users/nicosteffen/Documents/01 Arbeit/01 CFH/06 Lehre/Fit für R/Fit-fuer-R_Datenimport_Aufbereitung")
 
+
+# direkt über github --> r Kurs ordner studynte
+
+# Grundfunktionen ect. Pakete lesen 
+
+
 daten_csv <- read.csv("klinische_patientendaten.csv")
 daten_csv2 <- read.csv2("klinische_patientendaten.csv2")
 
-# install.packages("openxlsx")
-#library(openxlsx)
+# install.packages("haven")
+#library(haven)
 daten_sav <- read_sav("klinische_patientendaten.sav")
 
 # install.packages("openxlsx")
@@ -32,10 +37,9 @@ df[3,2]
 df[3,]
 df[,2]
 
-
 str(df)
 
-#chr (character / Zeichenkette): Das ist reiner Text.
+# chr (character / Zeichenkette): Das ist reiner Text.
 # int (integer / Ganze Zahl): Dies sind ganze Zahlen ohne Nachkommastellen.
 # num (numeric / Numerisch): Dies ist der Standardtyp für alle Zahlen
 # dbl (double): Für Zahlen mit Dezimalstellen
