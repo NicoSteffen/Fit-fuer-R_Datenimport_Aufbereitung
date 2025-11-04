@@ -47,10 +47,10 @@ str(df)
 
 # müssen in Faktor umwandeln 
 
-df$Geschlecht <- as.factor(patienten_daten$Geschlecht)
-df$Bildungsgrad <- as.factor(patienten_daten$Bildungsgrad)
-df$Behandlungsgruppe <- as.factor(patienten_daten$Behandlungsgruppe)
-df$Raucher <- as.factor(patienten_daten$Raucher)
+df$Geschlecht <- as.factor(df$Geschlecht)
+df$Bildungsgrad <- as.factor(df$Bildungsgrad)
+df$Behandlungsgruppe <- as.factor(df$Behandlungsgruppe)
+df$Raucher <- as.factor(df$Raucher)
 
 table(df$Geschlecht)
 
