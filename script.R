@@ -34,10 +34,6 @@ names(df)
 
 df$Patienten_ID
 
-df[3,2]
-df[3,]
-df[,2]
-
 str(df)
 
 # chr (character / Zeichenkette): Das ist reiner Text.
@@ -54,6 +50,11 @@ df$Raucher <- as.factor(df$Raucher)
 
 table(df$Geschlecht)
 
+
+df[3,2]
+df[3,]
+df[,2]
+
 mean(df$Alter)
 
 mean(df$BMI)
@@ -63,6 +64,7 @@ mean(df$BMI, na.rm = T)
 
 df[1:5,]
 df2 = df[1:5,]
+df[c(2,4,7),]
 
 df[df$Behandlungsgruppe == "Intervention A",]
 
@@ -85,11 +87,12 @@ mean(df$BMI[which(df$Geschlecht == "Weiblich")], na.rm = T)
 sd(df$BMI[which(df$Geschlecht == "Weiblich")], na.rm = T)
 var(df$BMI[which(df$Geschlecht == "Weiblich")], na.rm = T)
 
-# grep
 
-df[, grep("LQ_", colnames(df))]
 
 # Variablen / Spalten auswählen
+
+# grep
+df[, grep("LQ_", colnames(df))]
 
 library(dplyr)
 select(df, starts_with("LQ_"))
