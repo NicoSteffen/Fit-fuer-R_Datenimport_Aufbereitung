@@ -1,14 +1,14 @@
 df = read.csv2("https://raw.githubusercontent.com/NicoSteffen/Fit-fuer-R_Datenimport_Aufbereitung/main/klinische_patientendaten.csv2")
 df
 
-csv = read.csv("klinische_patientendaten.csv") # CSV Datensatz einlesen 
+#csv = read.csv("klinische_patientendaten.csv") # CSV Datensatz einlesen 
 
 # install.packages("haven")
 library(haven)
-sav = read_sav("klinische_patientendaten.sav")
+#sav = read_sav("klinische_patientendaten.sav")
 
 library(openxlsx)
-xls = read.xlsx("klinische_patientendaten.xlsx")
+#xls = read.xlsx("klinische_patientendaten.xlsx")
 
 ?haven
 
