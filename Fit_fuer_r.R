@@ -1,178 +1,70 @@
-# install.packages("haven")
-#install.packages("openxlsx")
-
-library(haven)
-library(openxlsx)
-library(dplyr)
-library(psych)
-library(report)
-library(flextable)
-
-#getwd()
-#setwd("/Users/nicosteffen/Documents/01 Arbeit/01 CFH/06 Lehre/Fit für R/Fit-fuer-R_Datenimport_Aufbereitung")
-
-df = read.csv("klinische_patientendaten.csv")
-df = read.csv2("klinische_patientendaten.csv2")
-
-df_sav = read_sav("klinische_patientendaten.sav")
-
-df_xl = read.xlsx("klinische_patientendaten.xlsx")
-
 df = read.csv2("https://raw.githubusercontent.com/NicoSteffen/Fit-fuer-R_Datenimport_Aufbereitung/main/klinische_patientendaten.csv2")
+df
 
-View(df)
+csv = read.csv("klinische_patientendaten.csv") # CSV Datensatz einlesen 
+
+# install.packages("haven")
+library(haven)
+sav = read_sav("klinische_patientendaten.sav")
+
+library(openxlsx)
+xls = read.xlsx("klinische_patientendaten.xlsx")
+
+?haven
+
 head(df)
 names(df)
+View(df)
+
+ncol(df)
+nrow(df)
+
+table(df$Geschlecht)
+
+library(tidyverse)
+
+summary(df)
+
 str(df)
 
+df$Geschlecht = factor(df$Geschlecht, labels = c("diverse", "male", "female"))
+df$Bildungsgrad = factor(df$Bildungsgrad)
+df$Behandlungsgruppe = factor(df$Behandlungsgruppe)
+df$Raucher = factor(df$Raucher)
 
-df[1:10,4]
+# geschlecht = c(1,2,1,2,3,2,1,2,1,1)
+# geschlecht = factor(geschlecht, levels = c(1,2,3), labels = c("male", "female", "diverse"))
 
-df$Alter[4]
+#skalar = 3
+#vektor = c(2,1,3,4,5,6,6)
+#vektor_char = c("Freud", "Simon", "Petra")
 
-# Char in Faktor Variablen umwandeln 
+df$Bildungsgrad
+df[1:6,]
+df[2,3:5]
 
-df$Geschlecht = as.factor(df$Geschlecht)
-df$Bildungsgrad = as.factor(df$Bildungsgrad)
-df$Behandlungsgruppe = as.factor(df$Behandlungsgruppe)
-df$Raucher = as.factor(df$Raucher)
-
-# basics 
-
+df$BMI[df$Behandlungsgruppe == "Kontrolle"]
+mean(df$BMI[df$Behandlungsgruppe == "Intervention B"], na.rm = TRUE)
 mean(df$Alter)
-
-mean(df$Alter[df$Behandlungsgruppe == "Intervention A"])
-mean(df[df$Behandlungsgruppe == "Intervention A",]$Alter)
-
 sd(df$Alter)
 var(df$Alter)
 
-table(df$Geschlecht)
-table(df$Bildungsgrad)
+InterventionA = df[df$Behandlungsgruppe == "Intervention A", ]
+nrow(InterventionA)
 
+table(df$Behandlungsgruppe)
 
-# grep
+select(df, starts_with("LQ"))
+names(df)
 
-df[,grep("LQ_", names(df))]
-
-select(df, starts_with("LQ_"))
-
-
-
-# Daten Aufbereiten 
-
-# ID1 Testlauf
-
+# ID war ein Testlauf
 df = df[df$Patienten_ID != "PAT_1001",]
 
 table(df$Geschlecht)
 
-df = df[df$Geschlecht != "Divers",]
-
-table(df$Geschlecht)
+df = df[df$Geschlecht != "diverse", ]
 
 df$Geschlecht = droplevels(df$Geschlecht)
-
-# Alter < 75
-
-df = df[df$Alter < 76,]
-
-range(df$Alter)
-
-
-df_dplyr = filter(df,
-                  Patienten_ID != "PAT_1001",
-                  Alter < 76,
-                  Geschlecht != "Divers")
-
-mean(df$BMI, na.rm = T)
-
-# Datenaggregation, Umkodieren
-
-# LQ_1 invertiert 
-
-df$LQ_01 = 6 - df$LQ_01
-
-df$LQ_01 = dplyr::recode(df$LQ_01, `1` = 5, `2` = 3, `4` = 2, `5` = 1)
-
-# Skalen aggregieren 
-
-df$LQ_total = rowMeans(df[,grep("LQ_", names(df))], na.rm = T)
-
-# STR -> Summe 
-
-colSums(is.na(df[,grep("STR", names(df))]))
-
-df$STR_sum = rowSums(df[,grep("STR", names(df))])
-
-
-write.csv2(df, "df_sauber.csv2")
-saveRDS(df, "df_sauber.rds")
-
-# Deskreptivstatistiken 
-
-
-psych::describe(df)
-describeBy(df, group = df$Behandlungsgruppe)
-
-report_sample(df, by = "Behandlungsgruppe")
-
-sample_report = df[,c("Alter", "Geschlecht", "Bildungsgrad", "Behandlungsgruppe", "BMI", "Raucher", "LQ_total", "STR_sum" )]
-
-report_sample(sample_report, by = "Behandlungsgruppe")
-
-flextable(report_sample(sample_report, by = "Behandlungsgruppe"))
-
-flextable::save_as_docx(flextable(report_sample(sample_report, by = "Behandlungsgruppe")), path = "Table1.docx")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
